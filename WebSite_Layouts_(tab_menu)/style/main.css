@@ -1,0 +1,115 @@
+body{
+    background-color:rgb(207, 207, 207);
+}
+
+#footer{
+    text-align: center;
+    vertical-align: bottom;
+    background-color: gray;
+    padding: 5px;
+    border-top: black solid 1px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 15px;
+}
+
+#page{
+    margin: 1em;
+    min-height: 500px;
+}
+
+
+#header{
+    background-image: url("../img/header.png"), url("../img/header.jpg");
+    background-size: cover;
+    min-height: 20%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-bottom: 0px;
+    margin: 0;
+}
+
+#header #profile{
+    max-height: 100px;
+    height: 80%;
+    margin-left: 5%;
+    border-radius: 100px;
+    margin: 20px 0px 40px 40px;
+}
+
+#header #menu {
+    padding: 0px 0px 0px 40px;
+    border-bottom: gray solid 3px;
+}
+
+#header #menu a{
+    text-decoration: none;
+    font-size: 20;
+    padding: 10 10 0 10;
+    margin-bottom: 0;
+}
+
+#header #menu .unselected{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    border-bottom: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#header #menu .unselected:hover{
+    background-color: rgba(128, 128, 128, 0.719);
+    border-bottom: rgba(128, 128, 128, 0.719) solid 1px;
+}
+
+#header #menu .selected{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    border-bottom: white solid 4px;
+    border-top: gray solid 3px;
+    border-left: gray solid 3px;
+    border-right: gray solid 3px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#content{
+    background-color: white;
+    min-height: 90%;
+    margin: 0;
+    padding: 20px;
+}
+
+.info{
+    float: left;
+    font-family: sans-serif;
+    font-size: 12;
+    text-align: left;
+    border: gray dotted 2px;
+    padding: 5px 10px 10px 10px;
+}
+
+.info-table-block{
+    border-top: gray solid 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.to-top-btn{
+    display: none;
+    position: fixed;
+    bottom: 60px;
+    right: 45px;
+    z-index: 99;
+    outline: none;
+    cursor: pointer;
+}
+
+.logo{
+    max-height: 70;
+    max-width: 70;
+    width: 5em;
+    height: 5em;
+}

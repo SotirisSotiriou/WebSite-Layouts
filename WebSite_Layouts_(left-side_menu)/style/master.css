@@ -1,0 +1,110 @@
+body{
+    background-color: #232C3A;
+}
+
+#footer{
+    text-align: center;
+    background-color: gray;
+    margin: 0 0 10 0;
+    padding: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#page{
+    margin: 0;
+    padding: 20px;
+    height: 100%;
+}
+
+#profile{
+    height: 7em;
+    width: 7em;
+    border-radius:50%; 
+    margin:10 10 10 40;
+}
+
+/* For menu elements */
+
+#menu{
+    list-style-type: none;
+    background-color: inherit;
+}
+
+.menu-item{
+    text-decoration: none;
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    min-width: 200px;
+    padding: 10 0 10 0; 
+    margin: 0 0 0 0;
+    border-bottom: rgba(211, 211, 211, 0.774) solid 1px;
+    transition: 0.3s;
+}
+
+
+.selected-menu-item{
+    background-color: white;
+    color: rgb(41, 56, 83);
+}
+
+.not-selected-menu-item{
+    color: lightgray;
+}
+
+.not-selected-menu-item:hover{
+    background-color: #4da1e4;;
+    color: rgb(41, 56, 83);
+}
+
+.menu-label{
+    padding-left: 5px;
+}
+
+/* For content elements */
+
+#content{
+    padding: 5%;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    min-height: 80%;
+}
+
+.top-elements-col {
+    vertical-align: top;
+}
+
+.to-top-btn{
+    display: none;
+    position: fixed;
+    bottom: 60px;
+    right: 45px;
+    z-index: 99;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.info-table{
+    /* float: left; */
+    font-family: sans-serif;
+    font-size: 12;
+    text-align: left;
+    border: gray dotted 2px;
+    padding: 5px 10px 10px 10px;
+}
+
+.info-table-block{
+    border-top: gray solid 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.logo{
+    max-height: 70;
+    max-width: 70;
+    width: 5em;
+    height: 5em;
+}
